@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+}
+
+#innerdiv {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  article {
+    display: block;
+    width: 100%;
+  }
+
+  #innerdiv {
+    margin: 10px;
+    width: 30%;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+}
